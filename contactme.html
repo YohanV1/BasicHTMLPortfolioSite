@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <h2>Contact Information:</h2>
+  <p>No. 12, Third Crossway, Mountain Bay Conclave, Ikkarai, Chennai, 600906 <br> <a href="mailto:yohanvvinu@gmail.com?subject=Query">yohanvvinu@gmail.com</a></p>
+  <form action="mailto:yohanvvinu@gmail.com?" method="post" enctype="text/plain">
+    <!-- Creating a form for user input on website -->
+    <table>
+      <tr>
+        <td>
+          <lab>Name:</lab> <!-- Creating a label for a text box -->
+        </td>
+        <td><input type="text" name="yourName"></td>
+      </tr>
+      <tr>
+        <td>
+          <lab>E-mail:</lab> <!-- Creating a label for a text box -->
+        </td>
+        <td><input type="email" name="yourEmail"></td>
+      </tr>
+    </table>
+    <lab>Message:</lab> <!-- Creating a label for a text box --> <br>
+    <textarea name="yourMessage" rows="6" cols="28"></textarea> <!-- Creating an empty box for the user to type in text -->
+    <br> <input type="submit"> <!-- Box of type submit, to act as a submit button. Look at 'html forms mdn' for more types like password, date etc -->
+  </form>
+  <br> <a href="index.html">Go back</a> <!-- Above anchor is a hyperlink to send an email -->
+</body>
+
+</html>
